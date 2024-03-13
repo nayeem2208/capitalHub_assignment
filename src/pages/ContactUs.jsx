@@ -71,20 +71,20 @@ function ContactUs() {
             className="bg-white md:w-3/6 mt-4  lg:hidden shadow-lg rounded-md px-8 py-8"
             
           >
-            <input type="text" name="" id="" placeholder="Your Name" className="bg-gray-100 p-2 w-full mt-5" />
-            <input type="email" name="" id="" placeholder="Your Email" className="bg-gray-100 p-2 w-full mt-5" />
-            <input type="phone" name="" id="" placeholder="Your Phone Number" className="bg-gray-100 p-2 w-full mt-5" />
-            <textarea name="" id="" cols="30" rows="5" placeholder="Message" className="bg-gray-100 p-2 w-full my-5"></textarea>
+            <input type="text" name="" id="" placeholder="Your Name" className="bg-gray-100 p-2 w-full mt-5 hover:bg-gray-200" />
+            <input type="email" name="" id="" placeholder="Your Email" className="bg-gray-100 p-2 w-full mt-5 hover:bg-gray-200" />
+            <input type="phone" name="" id="" placeholder="Your Phone Number" className="bg-gray-100 p-2 w-full mt-5 hover:bg-gray-200" />
+            <textarea name="" id="" cols="30" rows="5" placeholder="Message" className="bg-gray-100 p-2 w-full my-5 hover:bg-gray-200"></textarea>
           </div>
           </div>
           <div
             className="bg-white w-3/6 hidden lg:block shadow-lg rounded-md px-14 py-8"
             style={{ position: "absolute", top: -70, right: 150 }}
           >
-            <input type="text" name="" id="" placeholder="Your Name" className="bg-gray-100 p-5 w-full mt-5" />
-            <input type="email" name="" id="" placeholder="Your Email" className="bg-gray-100 p-5 w-full mt-5" />
-            <input type="phone" name="" id="" placeholder="Your Phone Number" className="bg-gray-100 p-5 w-full mt-5" />
-            <textarea name="" id="" cols="30" rows="5" placeholder="Message" className="bg-gray-100 p-5 w-full my-5"></textarea>
+            <input type="text" name="" id="" placeholder="Your Name" className="bg-gray-100 p-5 w-full mt-5 hover:bg-gray-200" />
+            <input type="email" name="" id="" placeholder="Your Email" className="bg-gray-100 p-5 w-full mt-5 hover:bg-gray-200" />
+            <input type="phone" name="" id="" placeholder="Your Phone Number" className="bg-gray-100 p-5 w-full mt-5 hover:bg-gray-200" />
+            <textarea name="" id="" cols="30" rows="5" placeholder="Message" className="bg-gray-100 p-5 w-full my-5 hover:bg-gray-200"></textarea>
           </div>
         </div>
       </div>

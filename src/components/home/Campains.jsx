@@ -17,7 +17,7 @@ function Campains() {
           <img
             src={image1}
             alt=""
-            className="w-full h-3/5 object-cover rounded-2xl "
+            className="hover:scale-105 w-full h-3/5 object-cover rounded-2xl "
           />
           <div className="h-2/5"></div>
           <div style={{ position: "absolute", bottom: 0 }} className=" w-5/6 ">
@@ -53,7 +53,7 @@ function Campains() {
           <img
             src={image2}
             alt=""
-            className="w-full h-3/5 object-cover rounded-2xl "
+            className="hover:scale-105 w-full h-3/5 object-cover rounded-2xl "
           />
           <div className="h-2/5"></div>
           <div style={{ position: "absolute", bottom: 0 }} className=" w-5/6 ">
@@ -89,7 +89,7 @@ function Campains() {
           <img
             src={image3}
             alt=""
-            className="w-full h-3/5 object-cover rounded-2xl"
+            className="hover:scale-105 w-full h-3/5 object-cover rounded-2xl"
           />
           <div className="h-2/5"></div>
           <div style={{ position: "absolute", bottom: 0 }} className=" w-5/6 ">
@@ -125,7 +125,7 @@ function Campains() {
           <img
             src={image4}
             alt=""
-            className="w-full h-3/5 object-cover rounded-2xl "
+            className="hover:scale-105  w-full h-3/5 object-cover rounded-2xl "
           />
           <div className="h-2/5"></div>
           <div style={{ position: "absolute", bottom: 0 }} className=" w-5/6 ">
@@ -155,7 +155,7 @@ function Campains() {
           </div>
         </div>
       </div>
-      <button className="bg-mainColor rounded-full py-4  px-6 text-white mt-8">
+      <button className="bg-mainColor rounded-full py-4  px-6 text-white mt-8 hover:scale-105 hover:bg-stone-700">
             Show more
           </button>
     </div>

@@ -25,16 +25,16 @@ function BudhaComponent() {
             Lorem ipsum dolor sit amet consectetur. At consequat purus hendrerit
             proin risus Sit purus ante dictum in malesuada id. Lorem
           </p>
-          <button className="bg-mainColor rounded-full py-3 md:py-4 px-6 md:px-8 text-white my-4 md:my-6 text-sm md:text-base">
+          <button className="bg-mainColor rounded-full py-3 md:py-4 px-6 md:px-8 text-white my-4 md:my-6 text-sm md:text-base hover:bg-stone-700 hover:scale-105">
             Donate Now
           </button>
           <div className="w-5/6 sm:w-4/6 md:w-3/6 flex mt-2">
             <img
               src={groupImage}
               alt="image of group of users"
-              className="w-3/6"
+              className="w-3/6 hover:scale-95"
             />{" "}
-            <button className="bg-mainColor text-white text-sm font-semibold w-2/5 rounded-md mx-2">
+            <button className="bg-mainColor text-white text-sm font-semibold w-2/5 rounded-md mx-2 hover:bg-stone-700 hover:scale-105">
               2.5k Helped
             </button>
           </div>
@@ -46,22 +46,22 @@ function BudhaComponent() {
           style={{
             backgroundColor: "#E0EFDD",
             position: "absolute",
-            top: "25%",
-            left: "15%",
+            top: "35%",
+            left: "10%",
           }}
         ></div>
         <div
           className="w-4/6 rounded-full mx-auto"
           style={{ backgroundColor: "#d2e8b5" }}
         >
-          <img src={budhaImage} alt="image of buddha" />
+          <img src={budhaImage} alt="image of buddha" className="hover:scale-95" />
         </div>
         <div
           className="rounded-full w-8 h-8"
           style={{
             backgroundColor: "#E0EFDD",
             position: "absolute",
-            top: "25%",
+            top: "15%",
             right: "15%",
           }}
         ></div>

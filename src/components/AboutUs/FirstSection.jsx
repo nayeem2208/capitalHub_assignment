@@ -16,7 +16,7 @@ function FirstSection() {
             <h2 className="text-2xl lg:text-4xl font-semibold">
               About <span style={{ color: "#C0E864" }}>Us</span>
             </h2>
-            <p className="lg:my-4">
+            <p className="lg:my-4 hover:text-lime-800">
               Lorem ipsum dolor sit amet consectetur. At consequat purus
               hendrerit proin risus Sit purus ante dictum in malesuada id.Lorem
               ipsum dolor sit amet consectetur. At consequat purus hendrerit
@@ -64,7 +64,7 @@ function FirstSection() {
           <h2 className="text-2xl lg:text-4xl font-semibold">
             Our <span style={{ color: "#C0E864" }}>Story</span>
           </h2>
-          <p className="my-4">
+          <p className="my-4 hover:text-lime-800">
             Lorem ipsum dolor sit amet consectetur. At consequat purus hendrerit
             proin risus Sit purus ante dictum in malesuada id.Lorem ipsum dolor
             sit amet consectetur. At consequat purus hendrerit proin risus Sit
@@ -77,13 +77,13 @@ function FirstSection() {
       {/* ...............Our vision......... */}
       <div className="text-left w-5/6 md:flex ml-8  lg:ml-20 mt-12 tracking-widest">
         <div className="lg:w-2/5 ">
-          <img src={image1} alt="" className="" />
+          <img src={image1} alt="image of a girl" className="hover:scale-105" />
         </div>
         <div className="w-full lg:w-3/5 pt-8">
           <h2 className="text-2xl lg:text-4xl font-semibold">
             Our <span style={{ color: "#C0E864" }}>Vision</span>
           </h2>
-          <p className="my-4">
+          <p className="my-4 hover:text-lime-800">
             Lorem ipsum dolor sit amet consectetur. At consequat purus hendrerit
             proin risus Sit purus ante dictum in malesuada id.Lorem ipsum dolor
             sit amet consectetur. At consequat purus hendrerit proin risus Sit
@@ -99,7 +99,7 @@ function FirstSection() {
           <h2 className="text-2xl lg:text-4xl font-semibold">
             Who <span style={{ color: "#C0E864" }}>We Are</span>
           </h2>
-          <p className="my-4">
+          <p className="my-4 hover:text-lime-800">
             Lorem ipsum dolor sit amet consectetur. At consequat purus hendrerit
             proin risus Sit purus ante dictum in malesuada id.Lorem ipsum dolor
             sit amet consectetur. At consequat purus hendrerit proin risus Sit
@@ -115,7 +115,7 @@ function FirstSection() {
           <h2 className="text-2xl lg:text-4xl font-semibold">
             Our <span style={{ color: "#C0E864" }}>Team</span>
           </h2>
-          <p className="my-4">
+          <p className="my-4 hover:text-lime-800">
             Lorem ipsum dolor sit amet consectetur. At consequat purus hendrerit
             proin risus Sit purus ante dictum in malesuada id.Lorem ipsum dolor
             sit amet consectetur. At consequat purus hendrerit proin risus Sit

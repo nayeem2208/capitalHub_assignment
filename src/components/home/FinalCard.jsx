@@ -35,9 +35,9 @@ function FinalCard() {
           ></div>
         </div>
         <div className="md:w-6/12 flex flex-col justify-center items-center text-center">
-          <h2 className="text-5xl md:text-8xl font-medium italic tracking-wide">130,987 +</h2>
+          <h2 className="text-5xl md:text-8xl font-medium italic tracking-wide hover:text-lime-600">130,987 +</h2>
           <p className="text-sm md:text-lg md:mt-6">People already joined</p>
-          <button className="bg-mainColor rounded-full py-1 md:py-3 text-xs md:text-base px-2  md:px-6 text-white md:mt-12">
+          <button className="bg-mainColor hover:bg-stone-700 hover:scale-105 rounded-full py-1 md:py-3 text-xs md:text-base px-2  md:px-6 text-white md:mt-12">
             Yes, I want to join the community
           </button>
         </div>
