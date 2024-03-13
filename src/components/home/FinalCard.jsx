@@ -1,4 +1,3 @@
-import React from "react";
 import image1 from "../../../public/Rectangle 7.png";
 import image2 from "../../../public/Rectangle 8.png";
 import image3 from "../../../public/Rectangle 9.png";
@@ -8,13 +7,13 @@ function FinalCard() {
   return (
     <div className="flex flex-col justify-center items-center">
       <div>
-        <h2 className="text-2xl font-bold tracking-wide leading-[1.4] text-center">
+        <h2 className="text-xl md:text-2xl font-bold tracking-wide md:leading-[1.4] text-center">
           Join our community for donating and be a part of a <br /> positive
           change in the world. With over
         </h2>
       </div>
-      <div className=" flex w-4/6 mt-6">
-        <div className="w-3/12" style={{ position: "relative" }}>
+      <div className=" flex md:w-4/6 mt-6">
+        <div className="md:w-3/12" style={{ position: "relative" }}>
           <div className="flex  mb-4">
             <img src={image1} alt="" className="w-4/5" />
             <div className="w-1/5"></div>
@@ -35,15 +34,15 @@ function FinalCard() {
             }}
           ></div>
         </div>
-        <div className="w-6/12 flex flex-col justify-center items-center text-center">
-          <h2 className="text-8xl font-medium italic tracking-wide">130,987 +</h2>
-          <p className="text-lg mt-6">People already joined</p>
-          <button className="bg-mainColor rounded-full py-3  px-6 text-white mt-12">
+        <div className="md:w-6/12 flex flex-col justify-center items-center text-center">
+          <h2 className="text-5xl md:text-8xl font-medium italic tracking-wide">130,987 +</h2>
+          <p className="text-sm md:text-lg md:mt-6">People already joined</p>
+          <button className="bg-mainColor rounded-full py-1 md:py-3 text-xs md:text-base px-2  md:px-6 text-white md:mt-12">
             Yes, I want to join the community
           </button>
         </div>
 
-        <div className="w-3/12" style={{ position: "relative" }}>
+        <div className="md:w-3/12" style={{ position: "relative" }}>
           <div className="flex  mb-4">
             <div className="w-3/5"></div>
             <img src={image3} alt="" className="w-4/5" />

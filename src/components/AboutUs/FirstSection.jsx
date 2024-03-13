@@ -1,4 +1,3 @@
-import React from "react";
 import budhaImage from "../../../public/buddha-8054755_640-removebg-preview 1.png";
 import image1 from "../../../public/Rectangle 186.png";
 function FirstSection() {
@@ -11,13 +10,13 @@ function FirstSection() {
       className="w-full  pt-4 "
     >
       {/* .......About us....... */}
-      <div className="flex">
-        <div className="w-5/6 text-left flex justify-center mt-4">
-          <div className="text-left  w-full ml-20 tracking-widest">
-            <h2 className="text-4xl font-semibold">
+      <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-normal">
+        <div className="md:w-5/6 text-left flex justify-center mt-4">
+          <div className="text-left  w-full ml-8 lg:ml-20 tracking-widest">
+            <h2 className="text-2xl lg:text-4xl font-semibold">
               About <span style={{ color: "#C0E864" }}>Us</span>
             </h2>
-            <p className="my-4">
+            <p className="lg:my-4">
               Lorem ipsum dolor sit amet consectetur. At consequat purus
               hendrerit proin risus Sit purus ante dictum in malesuada id.Lorem
               ipsum dolor sit amet consectetur. At consequat purus hendrerit
@@ -29,7 +28,7 @@ function FirstSection() {
           </div>
         </div>
         <div
-          className="w-2/6  flex justify-center"
+          className="md:w-2/6  flex justify-center "
           style={{ position: "relative" }}
         >
           <div
@@ -61,8 +60,8 @@ function FirstSection() {
 
       {/* .............Our Story.......... */}
       <div>
-        <div className="text-left w-5/6  ml-20 tracking-widest">
-          <h2 className="text-4xl font-semibold">
+        <div className="text-left md:w-5/6 ml-8 lg:ml-20 tracking-widest">
+          <h2 className="text-2xl lg:text-4xl font-semibold">
             Our <span style={{ color: "#C0E864" }}>Story</span>
           </h2>
           <p className="my-4">
@@ -76,12 +75,12 @@ function FirstSection() {
         </div>
       </div>
       {/* ...............Our vision......... */}
-      <div className="text-left w-5/6 flex  ml-20 mt-12 tracking-widest">
-        <div className="w-2/5 ">
+      <div className="text-left w-5/6 md:flex ml-8  lg:ml-20 mt-12 tracking-widest">
+        <div className="lg:w-2/5 ">
           <img src={image1} alt="" className="" />
         </div>
-        <div className="w-3/5 pt-8">
-          <h2 className="text-4xl font-semibold">
+        <div className="w-full lg:w-3/5 pt-8">
+          <h2 className="text-2xl lg:text-4xl font-semibold">
             Our <span style={{ color: "#C0E864" }}>Vision</span>
           </h2>
           <p className="my-4">
@@ -96,8 +95,8 @@ function FirstSection() {
       </div>
       {/* .....who we are......... */}
       <div>
-        <div className="text-left w-5/6 mt-6  ml-20 tracking-widest">
-          <h2 className="text-4xl font-semibold">
+        <div className="text-left w-5/6 mt-6 ml-8  lg:ml-20 tracking-widest">
+          <h2 className="text-2xl lg:text-4xl font-semibold">
             Who <span style={{ color: "#C0E864" }}>We Are</span>
           </h2>
           <p className="my-4">
@@ -112,8 +111,8 @@ function FirstSection() {
       </div>
       {/* .......our team......... */}
       <div>
-        <div className="text-left w-5/6 mt-6  ml-20 tracking-widest">
-          <h2 className="text-4xl font-semibold">
+        <div className="text-left w-5/6 mt-6 ml-8  lg:ml-20 tracking-widest">
+          <h2 className="text-2xl lg:text-4xl font-semibold">
             Our <span style={{ color: "#C0E864" }}>Team</span>
           </h2>
           <p className="my-4">

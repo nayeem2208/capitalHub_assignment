@@ -1,4 +1,3 @@
-import React from "react";
 import image1 from "../../../public/Rectangle 7a.png";
 import image2 from "../../../public/Rectangle 9a.png";
 import image3 from "../../../public/Rectangle 11a.png";
@@ -10,9 +9,9 @@ function Campains() {
       <h2 className="text-2xl font-bold tracking-wide leading-[1.4] text-center">
         Our Campaign
       </h2>
-      <div className=" w-5/6 flex justify-between my-12">
+      <div className=" w-5/6 flex flex-wrap lg:flex-nowrap justify-center lg:justify-between my-12">
         <div
-          className="bg-white flex flex-col justify-center items-center w-60 h-60 rounded-xl shadow-xl  border border-gray-200 overflow-hidden"
+          className="bg-white flex flex-col m-2 lg:m-0 justify-center items-center w-60 h-60 rounded-xl shadow-xl  border border-gray-200 overflow-hidden"
           style={{ position: "relative" }}
         >
           <img
@@ -48,7 +47,7 @@ function Campains() {
           </div>
         </div>
         <div
-          className="bg-white flex flex-col justify-center items-center w-60 h-60 rounded-xl shadow-xl  border border-gray-200 overflow-hidden"
+          className="bg-white flex flex-col m-2 lg:m-0 justify-center items-center w-60 h-60 rounded-xl shadow-xl  border border-gray-200 overflow-hidden"
           style={{ position: "relative" }}
         >
           <img
@@ -84,7 +83,7 @@ function Campains() {
           </div>
         </div>
         <div
-          className="bg-white flex flex-col justify-center items-center w-60 h-60 rounded-xl shadow-xl  border border-gray-200 overflow-hidden"
+          className="bg-white flex flex-col m-2 lg:m-0 justify-center items-center w-60 h-60 rounded-xl shadow-xl  border border-gray-200 overflow-hidden"
           style={{ position: "relative" }}
         >
           <img
@@ -120,7 +119,7 @@ function Campains() {
           </div>
         </div>
         <div
-          className="bg-white flex flex-col justify-center items-center w-60 h-60 rounded-xl shadow-xl  border border-gray-200 overflow-hidden"
+          className="bg-white flex flex-col m-2 lg:m-0 justify-center items-center w-60 h-60 rounded-xl shadow-xl  border border-gray-200 overflow-hidden"
           style={{ position: "relative" }}
         >
           <img
