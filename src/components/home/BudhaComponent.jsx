@@ -1,35 +1,34 @@
-import React from 'react'
 import budhaImage from "../../../public/buddha-8054755_640-removebg-preview 1.png";
 import groupImage from "../../../public/Group 1.png";
 import greenLine from "../../../public/Vector 1.png";
+
 function BudhaComponent() {
   return (
     <div
       style={{
-        background:
-          "linear-gradient(0deg, rgba(255,255,255,0.5) 0%, rgba(192, 232, 100,0.3) 100%)",
+        background: "linear-gradient(0deg, rgba(255,255,255,0.5) 0%, rgba(192, 232, 100,0.3) 100%)",
       }}
-      className="w-full flex pt-12"
+      className="w-full md:flex pt-3 md:pt-12"
     >
-      <div className="w-3/5 text-left flex justify-center  items-center">
-        <div className="w-4/5">
-          <h1 className="text-5xl font-bold tracking-wide leading-[1.4]">
+      <div className="w-full md:w-3/5 text-left">
+        <div className="w-4/5 mx-auto">
+          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-wide leading-[1.4]">
             Make someone’s Life <br /> by giving of yours
           </h1>
           <img
             src={greenLine}
             alt="green line"
-            className="w-32"
+            className="w-32 hidden lg:block"
             style={{ position: "absolute", left: 380 }}
           />
-          <p className="mt-6 font-medium tracking-wide">
+          <p className="mt-4 md:mt-6 text-sm md:text-base font-medium tracking-wide">
             Lorem ipsum dolor sit amet consectetur. At consequat purus hendrerit
-            proin risus Sit purus ante dictum in malesuada id.Lorem{" "}
+            proin risus Sit purus ante dictum in malesuada id. Lorem
           </p>
-          <button className="bg-mainColor rounded-full py-4 px-6 text-white my-6">
+          <button className="bg-mainColor rounded-full py-3 md:py-4 px-6 md:px-8 text-white my-4 md:my-6 text-sm md:text-base">
             Donate Now
           </button>
-          <div className="w-3/6 flex mt-2">
+          <div className="w-5/6 sm:w-4/6 md:w-3/6 flex mt-2">
             <img
               src={groupImage}
               alt="image of group of users"
@@ -41,32 +40,29 @@ function BudhaComponent() {
           </div>
         </div>
       </div>
-      <div
-        className="w-2/5  flex justify-center"
-        style={{ position: "relative" }}
-      >
+      <div className="w-full md:w-2/5 text-center relative mt-6 md:mt-0">
         <div
           className="rounded-full w-8 h-8"
           style={{
             backgroundColor: "#E0EFDD",
             position: "absolute",
-            top: 120,
-            left: 50,
+            top: "25%",
+            left: "15%",
           }}
         ></div>
         <div
-          className="w-4/6   rounded-full"
+          className="w-4/6 rounded-full mx-auto"
           style={{ backgroundColor: "#d2e8b5" }}
         >
-          <img src={budhaImage} alt="image of budha" />
+          <img src={budhaImage} alt="image of buddha" />
         </div>
         <div
           className="rounded-full w-8 h-8"
           style={{
             backgroundColor: "#E0EFDD",
             position: "absolute",
-            top: 50,
-            right: 80,
+            top: "25%",
+            right: "15%",
           }}
         ></div>
       </div>
@@ -74,5 +70,4 @@ function BudhaComponent() {
   );
 }
 
-
-export default BudhaComponent
+export default BudhaComponent;
