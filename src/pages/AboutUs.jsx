@@ -1,9 +1,12 @@
 import React from 'react'
+import FirstSection from '../components/AboutUs/FirstSection'
+import SecondSecontion from '../components/AboutUs/SecondSecontion'
 
 function AboutUs() {
   return (
     <div>
-      AboutUs
+      <FirstSection/>
+      <SecondSecontion/>
     </div>
   )
 }
