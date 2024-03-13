@@ -10,67 +10,68 @@ import rectangleImage from "../../../public/Rectangle 6.png";
 import Illustration1 from "../../../public/image 4.png";
 import Illustration2 from "../../../public/image 5.png";
 import Illustration3 from "../../../public/image 6.png";
+import {motion} from 'framer-motion'
 
 function NoMoreHomeless() {
   return (
     <div className="flex flex-col justify-center items-center pl-8">
       {/* ........First card.......... */}
       <div className="flex flex-wrap md:flex lg:flex-nowrap justify-between items-center w-5/6 my-12">
-        <div className="w-64 mx-4 h-64 bg-white rounded-xl shadow-lg border border-gray-200 px-2">
+        <div className="hover:scale-105 w-64 mx-4 h-64 bg-white rounded-xl shadow-lg border border-gray-200 px-2">
           <div className="flex justify-center">
             <img
               src={image1}
               alt="round image of a boy"
-              className="w-16 h-full m-3"
+              className="hover:scale-110 w-16 h-full m-3"
             />
             <img
               src={image2}
               alt="group image of boys"
-              className="w-12 h-full ml-2 mt-6 mr-6"
+              className="hover:scale-110 w-12 h-full ml-2 mt-6 mr-6"
             />
           </div>
           <div className="flex justify-center">
             <img
               src={image3}
               alt="Childrens through the window"
-              className="w-12 h-full m-2 ml-6"
+              className="hover:scale-110 w-12 h-full m-2 ml-6"
             />
             <img
               src={image4}
               alt="image of a women"
-              className="w-16 h-full m-3"
+              className="hover:scale-110 w-16 h-full m-3"
             />
           </div>
           <p className="text-center text-sm font-semibold mt-3">
             828 Million people in the world are still hungry
           </p>
         </div>
-        <div className="w-60 ml-4 mr-14 h-56 mt-6 md:mt-0 bg-white rounded-xl shadow-lg border border-gray-200 px-2">
+        <div className="hover:scale-105 w-60 ml-4 mr-14 h-56 mt-6 md:mt-0 bg-white rounded-xl shadow-lg border border-gray-200 px-2">
           <div className="flex justify-center">
-            <img src={image5} alt="A sad old man" className="w-14 h-full m-3" />
+            <img src={image5} alt="A sad old man" className="hover:scale-110 w-14 h-full m-3" />
             <img
               src={image6}
               alt="homeless man"
-              className="w-10 h-full ml-2 mt-6 mr-6"
+              className="hover:scale-110 w-10 h-full ml-2 mt-6 mr-6"
             />
           </div>
           <div className="flex justify-center">
             <img
               src={image7}
               alt="Sleeping man"
-              className="w-10 h-full m-2 ml-6"
+              className="w-10 h-full m-2 ml-6 hover:scale-110"
             />
             <img
               src={image8}
               alt="homeless man 2"
-              className="w-14 h-full m-3"
+              className="hover:scale-110 w-14 h-full m-3"
             />
           </div>
           <p className="text-center text-sm font-semibold mt-3">
             150 Million people in the world are still Homeless
           </p>
         </div>
-        <div className="w-full lg:w-6/12 md:mx-4 py-6" style={{ position: "relative" }}>
+        <div className="w-full lg:w-6/12 md:mx-4 py-6 " style={{ position: "relative" }}>
           <h1 className="text-2xl md:text-3xl font-bold tracking-wide md:leading-[1.4]">
             No More Homeless <br /> No More Hunger
           </h1>
@@ -78,9 +79,9 @@ function NoMoreHomeless() {
             Lorem ipsum dolor sit amet consectetur. At consequat purus hendrerit
             proin risus Sit purus ante dictum in malesuada id.Lorem{" "}
           </p>
-          <button className="bg-mainColor rounded-full py-4 px-6 text-white my-6">
+          <motion.button whileHover={{scale:1.02}} className="bg-mainColor rounded-full py-4 px-6 text-white my-6 hover:bg-stone-700">
             Donate Now
-          </button>
+          </motion.button>
           <div
             className="w-96 h-96 rounded-full"
             style={{
@@ -108,9 +109,9 @@ function NoMoreHomeless() {
             Lorem ipsum dolor sit amet consectetur. At consequat purus hendrerit
             proin risus Sit purus ante dictum in malesuada id.Lorem{" "}
           </p>
-          <button className="bg-mainColor rounded-full py-4 px-6 text-white my-6">
+          <motion.button whileHover={{scale:1.02}} className="bg-mainColor rounded-full py-4 px-6 text-white my-6 hover:bg-stone-700">
             Donate Now
-          </button>
+          </motion.button>
           <div
             className="w-96 h-96 rounded-full"
             style={{
@@ -127,7 +128,7 @@ function NoMoreHomeless() {
           <img
             src={rectangleImage}
             alt="rectage shape image of group of children"
-            className="max-h-96"
+            className="hover:scale-95 max-h-96"
           />
         </div>
       </div>
@@ -144,7 +145,7 @@ function NoMoreHomeless() {
               <img
                 src={Illustration1}
                 alt="illustration of users"
-                className="h-3/6 "
+                className="hover:scale-110 h-3/6 "
               />
               <h2 className="font-semibold">Become Volunteer</h2>
               <p className="text-xs">
@@ -157,7 +158,7 @@ function NoMoreHomeless() {
               <img
                 src={Illustration2}
                 alt="illustration of users"
-                className="h-2/5 "
+                className="hover:scale-110 h-2/5 "
               />
               <h2 className="font-semibold mt-3">Quick Fundraise</h2>
               <p className="text-xs">
@@ -170,7 +171,7 @@ function NoMoreHomeless() {
               <img
                 src={Illustration3}
                 alt="illustration of users"
-                className="h-2/5 "
+                className="hover:scale-110 h-2/5 "
               />
               <h2 className="font-semibold mt-3">Start Donating</h2>
               <p className="text-xs">
@@ -180,7 +181,7 @@ function NoMoreHomeless() {
               </p>
             </div>
           </div>
-          <button className="bg-mainColor rounded-full py-4  px-6 text-white mt-12">
+          <button className="bg-mainColor rounded-full py-4  px-6 text-white mt-12 hover:bg-stone-700">
             Donate Now
           </button>
         </div>
