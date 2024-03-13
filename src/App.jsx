@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import Router from './Routers/Router'
 
@@ -9,6 +10,7 @@ function App() {
    <div className=''>
     <Header/>
     <Router/>
+    <Footer/>
    </div>
   )
 }
